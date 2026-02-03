@@ -1,0 +1,101 @@
+/*  Outer full-page background */
+#signup {
+  background: linear-gradient(135deg, #ff9ecb, #ffc2d1);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Inner white box */
+#signup1 {
+  background-color: #ffffff;
+  color: #e63946;
+  width: 420px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideUp 1s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px 0;
+      border: 2px solid #a2d2ff;
+      border-radius: 10px;
+      font-size: 16px;
+      outline: none;
+      transition: all 0.3s ease;
+
+      &:focus {
+        border-color:#e63946 ;
+        box-shadow: 0 0 8px rgba(67, 97, 238, 0.3);
+      }
+    }
+
+#btnsignup {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      background-color: #4361ee;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 600;
+
+      &:hover {
+        background-color: #5a78ff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      &:active {
+        transform: translateY(1px);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}
+
+/*  Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

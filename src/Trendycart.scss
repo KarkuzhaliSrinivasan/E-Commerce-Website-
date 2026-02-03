@@ -1,0 +1,180 @@
+/* ------------------------------------
+   MAIN CONTAINER
+------------------------------------ */
+
+#root,
+#trendycart {
+  min-height: 100vh;
+  overflow: visible;
+}
+
+#trendycart {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* ------------------------------------
+   FIXED HEADER
+------------------------------------ */
+
+#topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(135deg, #232526, #414345);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* LEFT: LOGO */
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 100px;
+}
+
+/* ------------------------------------
+   CENTER SEARCH BAR SECTION
+------------------------------------ */
+
+.center-area {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#searchBar {
+  width: 520px;
+  padding: 12px 20px;
+  border-radius: 40px;
+  border: none;
+  font-size: 15px;
+  background-color: #fff;
+  color: #222;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#searchBar:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* SUGGESTIONS BOX */
+.suggestionsBox {
+  position: absolute;
+  width: 520px;
+  background: white;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px 0;
+  z-index: 9999;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.suggestionItem {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* ------------------------------------
+   RIGHT SIDE BUTTONS
+------------------------------------ */
+
+.right-area {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* CART BUTTON */
+.cartBtn {
+  background: #fff;
+  color: #414345;
+  border: 2px solid #414345;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* LOGOUT BTN */
+#logoutBtn {
+  background: #fff;
+  color: #2874f0;
+  border: 2px solid #2874f0;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#logoutBtn:hover {
+  background: #2874f0;
+  color: #fff;
+}
+
+/* MIC BUTTON (Fix alignment) */
+.mic-btn {
+  position: absolute;
+  right: -70px;
+  top: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #ff4e4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+/* ------------------------------------
+   PRODUCT GRID
+------------------------------------ */
+
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 40px;
+  margin-top: 120px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background: #b4aaad;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body {
+  background: #f3c6ca;
+}
