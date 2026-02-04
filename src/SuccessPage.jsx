@@ -38,7 +38,7 @@ function SuccessPage({ total, app, onBack }) {
       style={{
         minHeight: "600px",
         width: "1000px",
-      n  background: "linear-gradient(135deg, #f2f2f7, #d9e4f5)",
+        background: "linear-gradient(135deg, #f2f2f7, #d9e4f5)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
