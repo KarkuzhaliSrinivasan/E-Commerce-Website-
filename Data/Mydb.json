@@ -4,35 +4,35 @@
         "title":"Mens Regular Fit Shirt ",
         "price":"250",
         "category":"Mens Wear",
-        "image":"/Mens wear/Mens wear 1.webp",
+        "image":"/Menswear/Menswear1.webp",
         "rating":{"rate":3.9,"count":120}},
     {
         "id":2,
         "title":"Mens Casual Premium Slim Fit T-Shirts ",
         "price":"300",
         "category":"Mens Wear",
-        "image":"/Mens wear/Mens wear 2.jpg",
+        "image":"/Menswear/Menswear2.jpg",
         "rating":{"rate":4.1,"count":259}},
     { 
         "id":3,
         "title":"Mens Unicus Apparel",
         "price":"450",
         "category":"Mens Wear",
-        "image":"/Mens wear/Mens wear 3.jpg",
+        "image":"/Menswear/Menswear3.jpg",
         "rating":{"rate":4.7,"count":500}},
     {
         "id":4,
         "title":"Mens Casual Slim Fit",
         "price":"500",
         "category":"Mens Wear",
-        "image":"/Mens wear/Mens wear 4.jpg",
+        "image":"/Menswear/Menswear4.jpg",
         "rating":{"rate":2.1,"count":430}},
     {
         "id":5,
         "title":"Mens Solid Round Neck shirt",
         "price":"200",
         "category":"Mens wear",
-        "image":"/Mens wear/Mens wear 5.jpg",
+        "image":"/Menswear/Menswear5.jpg",
         "rating":{"rate":4.6,"count":400}
     }],
     
@@ -43,7 +43,7 @@
         "title":"Women Viscose rayon kurta pant Dupatta set",
         "price":"550",
         "category":"Womens wear",
-        "image":"/Womens wear/Womens wear 1.jpg",
+        "image":"/Womenswear/Womenswear1.jpg",
         "rating":{"rate":3.9,"count":120}
     }, 
     
@@ -52,7 +52,7 @@
         "title":"Women Georgette Kurta Palazzo Dupatta SEt",
         "price":"350",
         "category":"Womens wear",
-        "image":"/Womens wear/Womens wear 2.jpg",
+        "image":"/Womenswear/Womenswear2.jpg",
         "rating":{"rate":3.9,"count":120}
     },
      {
@@ -60,14 +60,14 @@
         "title":"Women silk blend kurta pant Dupatta set",
         "price":"400",
         "category":"Womens wear",
-        "image":"/Womens wear/Womens wear 4.jpg",
+        "image":"/Womenswear/Womenswear4.jpg",
         "rating":{"rate":3.9,"count":120}
     }, {
         "id":4,
         "title":"Women Printed Pure Cotton Anarkali Kurta ",
         "price":"750",
         "category":"Womens wear",
-        "image":"/Womens wear/Womens wear 5.webp",
+        "image":"/Womenswear/Womenswear5.webp",
         "rating":{"rate":3.9,"count":120}
     },
      {
@@ -75,7 +75,7 @@
         "title":"Women Cotton Blend Kurta",
         "price":"650",
         "category":"Womens wear",
-        "image":"/Womens wear/Womens wear 6.webp",
+        "image":"/Womenswear/Womenswear6.webp",
         "rating":{"rate":3.9,"count":120}
     }
 ],
@@ -86,7 +86,7 @@
         "title":"Boys Casual T-shirt Track Pants",
         "price":"900",
         "category":"Kids boys wear",
-        "image":"/Kids boys/kids wear1.webp",
+        "image":"/Kidsboys/kidswear1.webp",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -94,7 +94,7 @@
         "title":"Boys Festive & Party Kurta ",
         "price":"1000",
         "category":"Kids boys wear",
-        "image":"/Kids boys/kids wear2.jpg",
+        "image":"/Kidsboys/kidswear2.jpg",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -102,7 +102,7 @@
         "title":"Boys Festive & Waistcoat and Pyjama set",
         "price":"700",
         "category":"Kids boys wear",
-        "image":"/Kids boys/kids wear3.webp",
+        "image":"/Kidsboys/kidswear3.webp",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -110,7 +110,7 @@
         "title":"Boys  Casuals T-Shirts",
         "price":"500",
         "category":"Kids boys wear",
-        "image":"/Kids boys/kids wear4.avif",
+        "image":"/Kidsboys/kidswear4.avif",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -118,7 +118,7 @@
         "title":"Boys Casual T-shirt Track Pants",
         "price":"250",
         "category":"Kids boys wear",
-        "image":"/Kids boys/kids wear5.jpg",
+        "image":"/Kidsboys/kidswear5.jpg",
         "rating":{"rate":3.9,"count":120}
     }
 ],
@@ -129,7 +129,7 @@
         "title":"Maxi Full Length Casual dress",
         "price":"1000",
         "category":"Kids girls wear",
-        "image":"/Kids Girls/kids wea1.jpg",
+        "image":"/KidsGirls/kidswea1.jpg",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -137,7 +137,7 @@
         "title":"girls Festive & party kurta set",
         "price":"1050",
         "category":"Kids girls wear",
-        "image":"/Kids Girls/kids wear2.jpg",
+        "image":"/KidsGirls/kidswear2.jpg",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -145,7 +145,7 @@
         "title":"Girls Below knee party dress",
         "price":"1500",
         "category":"Kids girls wear",
-        "image":"/Kids Girls/kids wear3.webp",
+        "image":"/KidsGirls/kidswear3.webp",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -153,7 +153,7 @@
         "title":"Girls Casual Dress Skirt",
         "price":"500",
         "category":"Kids girls wear",
-        "image":"/Kids Girls/kids wear4.webp",
+        "image":"/KidsGirls/kidswear4.webp",
         "rating":{"rate":3.9,"count":120}
     },
     {
@@ -161,7 +161,7 @@
         "title":"Girls calf length festive ",
         "price":"250",
         "category":"Kids girls wear",
-        "image":"/Kids Girls/kids wear5.webp",
+        "image":"/KidsGirls/kidswear5.webp",
         "rating":{"rate":3.9,"count":120}
     }
     

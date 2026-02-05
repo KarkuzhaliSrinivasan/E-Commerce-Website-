@@ -89,7 +89,7 @@ function BuyPage({ item, setShowBuyPage }) {
               }}
             />
 
-            <h1>{item.title}</h1>
+            <h3>{item.title}</h3>
             <p style={{ color: "#777" }}>{item.category}</p>
             <h2>₹{item.price}</h2>
 
