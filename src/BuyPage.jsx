@@ -55,7 +55,7 @@ function BuyPage({ item, setShowBuyPage }) {
   return (
     <div
       style={{
-        minHeight: "700px",
+        minHeight: "900px",
         width: "1000px",
         background: "#f2f2f7",
         padding: "20px 10px",
@@ -66,8 +66,8 @@ function BuyPage({ item, setShowBuyPage }) {
     >
       <div
         style={{
-          width: "100%",
-          maxWidth: "1100px",
+          maxWidth: "1700px",
+          minHeight:"600px",
           background: "#fff",
           borderRadius: 18,
           padding: 30,
@@ -76,13 +76,13 @@ function BuyPage({ item, setShowBuyPage }) {
       >
         <div style={{ display: "flex", gap: 40, flexWrap: "wrap" }}>
           {/* LEFT */}
-          <div style={{ flex: 1, minWidth: 280 }}>
+          <div style={{ flex: 1, minWidth: 300,height:300 }}>
             <img
               src={item.image}
               alt={item.title}
               style={{
-                width: "180px",
-                height: "200px",
+                width: "200px",
+                height: "350px",
                 borderRadius: 16,
                 objectFit: "cover",
                 marginBottom: 20,
